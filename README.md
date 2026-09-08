@@ -1,10 +1,4 @@
-# TradeXpress (tradexpress.co)
-
-This is the backend and API service for [tradexpress.co](https://tradexpress.co), built using TypeScript and Encore.
-
-[![Deploy to Encore](https://github.com/encoredev/examples/raw/main/assets/deploytoenc.svg)](https://app.encore.cloud/create-app/clone/ts-hello-world)
-
-## Prerequisites 
+## Prerequisites
 
 **Install Encore:**
 - **macOS:** `brew install encoredev/tap/encore`
@@ -13,9 +7,10 @@ This is the backend and API service for [tradexpress.co](https://tradexpress.co)
 
 ## Create app
 
-Create a local app from this template:
+Create a local app for tradexpress.co from this template:
 
 ```bash
+encore app create tradexpress-api --example=ts/hello-world
 encore app create tradexpress-api --example=ts/hello-world
 
 ### Local Development Dashboard
