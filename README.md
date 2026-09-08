@@ -92,7 +92,7 @@ Learn more in the docs: https://encore.dev/docs/ts/primitives/databases
 
 Welcome to the official backend repository and API documentation for **tradexpress.co**. This application is built using TypeScript and powered by Encore.ts to handle fast, scalable, and type-safe microservices for customs brokerage, logistics estimations, and AI-driven trade consultations.
 
-[![Deploy to Encore](https://github.com/encoredev/examples/raw/main/assets/deploytoenc.svg)](https://app.encore.cloud/create-app/clone/ts-hello-world)
+[![Deploy to Encore](https://github.com/tradexpress/examples/raw/main/assets/deploytotxc.svg)](https://app.tradexpress.cloud/create-app/clone/ts-hello-world)
 
 ---
 
