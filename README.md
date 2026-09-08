@@ -1,6 +1,6 @@
-# REST API Starter
+# TradeXpress (tradexpress.co)
 
-This is a RESTful API Starter with a single Hello World API endpoint.
+This is the backend and API service for [tradexpress.co](https://tradexpress.co), built using TypeScript and Encore.
 
 [![Deploy to Encore](https://github.com/encoredev/examples/raw/main/assets/deploytoenc.svg)](https://app.encore.cloud/create-app/clone/ts-hello-world)
 
@@ -16,23 +16,7 @@ This is a RESTful API Starter with a single Hello World API endpoint.
 Create a local app from this template:
 
 ```bash
-encore app create my-app-name --example=ts/hello-world
-```
-
-## Run app locally
-
-Run this command from your application's root folder:
-
-```bash
-encore run
-```
-### Using the API
-
-To see that your app is running, you can ping the API.
-
-```bash
-curl http://localhost:4000/hello/World
-```
+encore app create tradexpress-api --example=ts/hello-world
 
 ### Local Development Dashboard
 
