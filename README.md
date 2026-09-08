@@ -109,54 +109,50 @@ Once you've added a migration, restart your app with `encore run` to start up th
 
 Learn more in the docs: https://encore.dev/docs/ts/primitives/databases
 
-### Learn more
+# TradeXpress (tradexpress.co) — Production API & Backend
 
-There are many more features to explore in Encore.ts, for example:
+Welcome to the official backend repository and API documentation for **tradexpress.co**. This application is built using TypeScript and powered by Encore.ts to handle fast, scalable, and type-safe microservices for customs brokerage, logistics estimations, and AI-driven trade consultations.
 
-- [Request Validation](https://encore.dev/docs/ts/primitives/validation)
-- [Streaming APIs](https://encore.dev/docs/ts/primitives/streaming-apis)
-- [Cron jobs](https://encore.dev/docs/ts/primitives/cron-jobs)
-- [Pub/Sub](https://encore.dev/docs/ts/primitives/pubsub)
-- [Object Storage](https://encore.dev/docs/ts/primitives/object-storage)
-- [Secrets](https://encore.dev/docs/ts/primitives/secrets)
-- [Authentication handlers](https://encore.dev/docs/ts/develop/auth)
-- [Middleware](https://encore.dev/docs/ts/develop/middleware)
+[![Deploy to Encore](https://github.com/encoredev/examples/raw/main/assets/deploytoenc.svg)](https://app.encore.cloud/create-app/clone/ts-hello-world)
 
-## Deployment
+---
 
-### Self-hosting
+## Table of Contents
 
-See the [self-hosting instructions](https://encore.dev/docs/self-host/docker-build) for how to use `encore build docker` to create a Docker image and configure it.
+1. [Prerequisites](#prerequisites)
+2. [Project Setup & Configuration](#project-setup--configuration)
+3. [Running Locally](#running-locally)
+4. [Using the API](#using-the-api)
+5. [Local Development Dashboard](#local-development-dashboard)
+6. [Backend Architecture & Development](#backend-architecture--development)
+   - [Adding a New Service](#add-a-new-service)
+   - [Adding a New Endpoint](#add-a-new-endpoint)
+   - [Service-to-Service API Calls](#service-to-service-api-calls)
+   - [Adding a Database](#add-a-database)
+7. [Advanced Encore.ts Features](#advanced-encorets-features)
+8. [Deployment & Exposing tradexpress.co](#deployment--exposing-tradexpressco)
+   - [Self-Hosting via Docker](#self-hosting)
+   - [Encore Cloud Platform](#encore-cloud-platform)
+9. [GitHub Integration](#link-to-github)
+10. [Testing](#testing)
 
-### Encore Cloud Platform
+---
 
-Deploy your application to a free staging environment in Encore's development cloud using `git push encore`:
+## Prerequisites
 
-```bash
-git add -A .
-git commit -m 'Commit message'
-git push encore
-```
+Before setting up the project for `tradexpress.co`, make sure you have the Encore CLI installed based on your operating system:
 
-You can also open your app in the [Cloud Dashboard](https://app.encore.dev) to integrate with GitHub, or connect your AWS/GCP account, enabling Encore to automatically handle cloud deployments for you.
+* **macOS:** `brew install encoredev/tap/encore`
+* **Linux:** `curl -L https://encore.dev/install.sh | bash`
+* **Windows:** `iwr https://encore.dev/install.ps1 | iex`
 
-## Link to GitHub
+You will also need **Docker** installed and running locally if you plan on spinning up local databases and persistence layers.
 
-Follow these steps to link your app to GitHub:
+---
 
-1. Create a GitHub repo, commit and push the app.
-2. Open your app in the [Cloud Dashboard](https://app.encore.dev).
-3. Go to **Settings ➔ GitHub** and click on **Link app to GitHub** to link your app to GitHub and select the repo you just created.
-4. To configure Encore to automatically trigger deploys when you push to a specific branch name, go to the **Overview** page for your intended environment. Click on **Settings** and then in the section **Branch Push** configure the **Branch name** and hit **Save**.
-5. Commit and push a change to GitHub to trigger a deploy.
+## Project Setup & Configuration
 
-[Learn more in the docs](https://encore.dev/docs/how-to/github)
-
-
-## Testing
-
-To run tests, configure the `test` command in your `package.json` to the test runner of your choice, and then use the command `encore test` from the CLI. The `encore test` command sets up all the necessary infrastructure in test mode before handing over to the test runner. [Learn more](https://encore.dev/docs/ts/develop/testing)
+Create a local app from this template specifically structured for `tradexpress.co`:
 
 ```bash
-encore test
-```
+encore app create tradexpress-api --example=ts/hello-world
