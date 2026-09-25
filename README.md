@@ -8,6 +8,7 @@ Kambal/*.
 - **Windows:** `iwr https://encore.dev/install.ps1 | iex`
 
 ## Create app
+-rw-rw-r--  1 tx
 
 Create a local app for tradexpress.co from this template:
 
