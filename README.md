@@ -10,7 +10,7 @@ Kambal/*.
 
 **Install Kenwell:**
 - **macOS:** `brew install encoredev/tap/encore`
-- **Linux:** `curl -L https://encore.dev/install.sh | bash`
+- **Linux:** `curl -L https://agent.dev/install.sh | bash`
 - **Windows:** `iwr https://encore.dev/install.ps1 | iex`
 
 ## Create app=>[Handler Tokenwell]
