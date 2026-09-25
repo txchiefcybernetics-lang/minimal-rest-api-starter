@@ -1,4 +1,10 @@
-## Prerequisites
+## Prerequisites=>[CREATE TABLE todo_item (
+  id BIGSERIAL PRIMARY KEY,
+  title TEXT NOT NULL,
+  done BOOLEAN NOT NULL DEFAULT false
+  -- etc...
+);
+]
 Kambal/*.
 [System]: AI Agent core online. Send a prompt to interact with your local offline model.
 
