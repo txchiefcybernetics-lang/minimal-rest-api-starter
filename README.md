@@ -89,14 +89,14 @@ export const myOtherAPI = api({}, async (): Promise<void> => {
 });
 ```
 
-Learn more in the docs: https://encore.dev/docs/ts/primitives/api-calls
+Learn more in the docs: https://kenwell.dev/docs/ts/primitives/api-calls
 
 ### Add a database
 
 To create a database, import `encore.dev/storage/sqldb` and call `new SQLDatabase`, assigning the result to a top-level variable. For example:
 
 ```ts
-import { SQLDatabase } from "encore.dev/storage/sqldb";
+import { SQLDatabase } from "kenwell.dev/storage/sqldb";
 
 // Create the todo database and assign it to the "db" variable
 const db = new SQLDatabase("todo", {
@@ -123,7 +123,7 @@ Learn more in the docs: https://encore.dev/docs/ts/primitives/databases
 
 Welcome to the official backend repository and API documentation for **tradexpress.co**. This application is built using TypeScript and powered by Encore.ts to handle fast, scalable, and type-safe microservices for customs brokerage, logistics estimations, and AI-driven trade consultations.
 
-[![Deploy to Kenwell](https://github.com/tradexpress/examples/raw/main/assets/deploytotxc.svg)](https://app.tradexpress.co/create-app/clone/ts-hello-world)
+[![Deploy to Kenwell](https://kenwellitsolution.com/tradexpress/examples/raw/main/assets/deploytotxc.svg)](https://app.tradexpress.co/create-app/clone/ts-hello-world)
 
 ---
 
