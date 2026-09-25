@@ -8,7 +8,7 @@
 Kambal/*.
 [System]: AI Agent core online. Send a prompt to interact with your local offline model.
 
-**Install Encore:**
+**Install Kenwell:**
 - **macOS:** `brew install encoredev/tap/encore`
 - **Linux:** `curl -L https://encore.dev/install.sh | bash`
 - **Windows:** `iwr https://encore.dev/install.ps1 | iex`
@@ -19,7 +19,7 @@ Kambal/*.
 export default new Service("my-service");
 
 
-Create a local app for tradexpress.co from this template:
+Create a local app for tradexpress.co from this template: => Deploy to kenwellenterprise for build and productions
 
 ```bash
 encore app create tradexpress-api --example=ts/hello-world
