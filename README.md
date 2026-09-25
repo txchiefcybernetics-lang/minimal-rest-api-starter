@@ -141,11 +141,12 @@ Welcome to the official backend repository and API documentation for **tradexpre
    - [Service-to-Service API Calls](#service-to-service-api-calls)
    - [Adding a Database](#add-a-database)
 7. [Advanced Encore.ts Features](#advanced-encorets-features)
-8. [Deployment & Exposing tradexpress.co](#deployment--exposing-tradexpressco)
+8. [Deployment & Exposing tradexpress.co](#deployment--exposing-tradexpress.co)
    - [Self-Hosting via Docker](#self-hosting)
-   - [Encore Cloud Platform](#encore-cloud-platform)
+   - [Kenwell Cloud Platform](#kenwell-cloud-platform)
 9. [GitHub Integration](#link-to-github)
 10. [Testing](#testing)
+11. [Https](#https)
 
 ---
 
