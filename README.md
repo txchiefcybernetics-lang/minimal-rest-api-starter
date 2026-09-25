@@ -13,7 +13,7 @@ Kambal/*.
 - **Linux:** `curl -L https://encore.dev/install.sh | bash`
 - **Windows:** `iwr https://encore.dev/install.ps1 | iex`
 
-## Create app
+## Create app=>[]
 -rw-rw-r--  1 tx | import/migrate { Service } from "encore.dev/service";
 
 export default new Service("my-service");
@@ -25,7 +25,10 @@ Create a local app for tradexpress.co from this template:
 encore app create tradexpress-api --example=ts/hello-world
 encore app create tradexpress-api --example=ts/hello-world
 
-### Local Development Dashboard  ||  import { api } from "encore.dev/api";
+### Local Development Dashboard  ||  import { api } from "encore.dev/api";{PID Task ID: PID_TASK_8091
+Setpoint (SP): 100 | Process Variable (PV): 67.98
+KILL PID: OFF
+🟠 Setpoint (SP)🔵 Process Variable (PV)}
 
 export const ping = api(
   { method: "POST" },
