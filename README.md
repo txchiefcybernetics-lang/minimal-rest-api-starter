@@ -1,4 +1,6 @@
 ## Prerequisites
+Kambal/*.
+[System]: AI Agent core online. Send a prompt to interact with your local offline model.
 
 **Install Encore:**
 - **macOS:** `brew install encoredev/tap/encore`
