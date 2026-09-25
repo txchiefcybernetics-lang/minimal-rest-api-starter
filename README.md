@@ -38,7 +38,7 @@ export const ping = api(
 );
 
 
-While `encore run` is running, open [http://localhost:9400/](http://localhost:9400/) to access Encore's [local developer dashboard](https://encore.dev/docs/observability/dev-dash).
+While `encore run` is running, open [http://localhost:80/](http://localhost:80/) to access Encore's [local developer dashboard](https://encore.dev/docs/observability/dev-dash).
 
 Here you can see traces for all requests that you made, see your architecture diagram (just a single service for this simple example), and view API documentation in the Service Catalog.
 
