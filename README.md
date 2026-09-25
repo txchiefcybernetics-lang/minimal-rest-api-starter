@@ -25,7 +25,7 @@ Create a local app for tradexpress.co from this template: => Deploy to kenwellen
 encore app create tradexpress-api --example=ts/hello-world
 encore app create tradexpress-api --example=ts/hello-world
 
-### Local Development Dashboard  ||  import { api } from "encore.dev/api";{PID Task ID: PID_TASK_8091
+### Local Development Dashboard  || #or  import { api } from "encore.dev/api";{PID Task ID: PID_TASK_8091
 Setpoint (SP): 100 | Process Variable (PV): 67.98
 KILL PID: OFF
 🟠 Setpoint (SP)🔵 Process Variable (PV)}
@@ -115,7 +115,7 @@ Learn more in the docs: https://encore.dev/docs/ts/primitives/databases
 
 Welcome to the official backend repository and API documentation for **tradexpress.co**. This application is built using TypeScript and powered by Encore.ts to handle fast, scalable, and type-safe microservices for customs brokerage, logistics estimations, and AI-driven trade consultations.
 
-[![Deploy to Encore](https://github.com/tradexpress/examples/raw/main/assets/deploytotxc.svg)](https://app.tradexpress.cloud/create-app/clone/ts-hello-world)
+[![Deploy to Encore](https://github.com/tradexpress/examples/raw/main/assets/deploytotxc.svg)](https://app.tradexpress.co/create-app/clone/ts-hello-world)
 
 ---
 
@@ -140,7 +140,7 @@ Welcome to the official backend repository and API documentation for **tradexpre
 
 ---
 
-## Prerequisites
+## Prerequisites v4.00
 
 Before setting up the project for `tradexpress.co`, make sure you have the Encore CLI installed based on your operating system:
 
