@@ -16,7 +16,7 @@ Kambal/*.
 ## Create app=>[Handler Tokenwell]
 -rw-rw-r--  1 tx | import/migrate { Service } from "encore.dev/service";
 
-export default new Service("my-service");
+export default new Service("my-service"); kenwell -About This Page -http://localhost:4000/
 
 
 Create a local app for tradexpress.co from this template: => Deploy to kenwellenterprise for build and productions
