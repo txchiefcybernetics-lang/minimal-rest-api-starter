@@ -16,7 +16,15 @@ Create a local app for tradexpress.co from this template:
 encore app create tradexpress-api --example=ts/hello-world
 encore app create tradexpress-api --example=ts/hello-world
 
-### Local Development Dashboard
+### Local Development Dashboard  ||  import { api } from "encore.dev/api";
+
+export const ping = api(
+  { method: "POST" },
+  async (p: PingParams): Promise<PingResponse> => {
+    return { message: `Hello ${p.name}!` };
+  },
+);
+
 
 While `encore run` is running, open [http://localhost:9400/](http://localhost:9400/) to access Encore's [local developer dashboard](https://encore.dev/docs/observability/dev-dash).
 
