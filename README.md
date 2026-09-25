@@ -14,7 +14,10 @@ Kambal/*.
 - **Windows:** `iwr https://encore.dev/install.ps1 | iex`
 
 ## Create app
--rw-rw-r--  1 tx
+-rw-rw-r--  1 tx | import/migrate { Service } from "encore.dev/service";
+
+export default new Service("my-service");
+
 
 Create a local app for tradexpress.co from this template:
 
