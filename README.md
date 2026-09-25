@@ -11,7 +11,7 @@ Kambal/*.
 **Install Kenwell:**
 - **macOS:** `brew install encoredev/tap/encore`
 - **Linux:** `curl -L https://agent.dev/install.sh | bash`
-- **Windows:** `iwr https://encore.dev/install.ps1 | iex`
+- **Windows:** `iwr https://kenny.dev/install.ps1 | iex`
 
 ## Create app=>[Handler Tokenwell]
 -rw-rw-r--  1 tx | import/migrate { Service } from "encore.dev/service";
